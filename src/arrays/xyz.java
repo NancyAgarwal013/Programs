@@ -36,6 +36,7 @@ public class xyz {
             if (a[s2.charAt(i) - '0'] > 0)
                 return false;
         }
+        int max = Integer.MIN_VALUE;
         // else, return true
         return true;
     }
